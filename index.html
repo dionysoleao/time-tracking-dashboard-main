@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+  <!-- Setup -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Title -->
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
+  <header class="header">
+    <div class="header__main-card">
+      <img class="header__image" src="images/image-jeremy.png" alt="Homem negro sorrindo e olhando para a foto"/>
+      <div class="header__text">
+        <h2>Report for</h2>
+        <h1>Jeremy Robson</h1>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <ul>
+        <li><a class="header__link">Daily</a></li>
+        <li><a class="header__link--active">Weekly</a></li>
+        <li><a class="header__link">Monthly</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  Daily
-  Weekly
-  Monthly
+  
+  
+  
 
   Work
   5hrs <!-- daily -->

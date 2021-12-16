@@ -1,0 +1,102 @@
+/*Global Styles*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    color:hsl(236, 100%, 87%);
+}
+
+.header__main-card{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background-color: hsl(246, 80%, 60%);
+    width: 280px;
+    border-radius: 15px;
+    box-sizing: content-box;
+    padding: 25px 20px;
+}
+
+.header__image{
+    height: 100%;
+    margin-right: 30px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: inline;
+}
+
+.header__nav{
+    display: block;
+    background-color: hsl(235, 46%, 20%);
+    top:-30px;
+    position: relative;
+    z-index: -1;
+    width: 280px;
+    padding: 20px;
+    padding-top: 30px;
+    box-sizing: content-box;
+    border-radius: 15px;
+}
+
+.header__nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    color:hsl(235, 45%, 61%)
+}
+
+.header__link--active{
+    color: #fff;
+}
+
+
+
+
+a { 
+color: hsl(246, 80%, 60%)
+
+hsl(15, 100%, 70%)
+hsl(195, 74%, 62%)
+hsl(348, 100%, 68%)
+hsl(145, 58%, 55%)
+hsl(264, 64%, 52%)
+hsl(43, 84%, 65%)
+
+
+
+hsl(226, 43%, 10%)
+hsl(235, 46%, 20%)
+hsl(235, 45%, 61%)
+hsl(236, 100%, 87%)
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
